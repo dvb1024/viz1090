@@ -79,6 +79,8 @@ int main(int argc, char **argv) {
 
     appData.initialize();
 
+    view.metric = 0;
+
     // Parse the command line options
     for (j = 1; j < argc; j++) {
         int more = ((j + 1) < argc); // There are more arguments
